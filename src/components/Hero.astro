@@ -1,0 +1,33 @@
+---
+import '../styles/hero.css';
+import UnderlineHighlight from './Underline.astro';
+---
+
+<div class="hero-container">
+    <section class="hero" id="hero">
+        <div class="hero-grid-bg"></div>
+        <div class="hero-glow"></div>
+
+        <div class="hero-wrap">
+            <div class="hero-left">
+                <h1 class="hero-h1">
+                    Learn in the AM,<br />
+                    <UnderlineHighlight>excel in the PM</UnderlineHighlight>
+                </h1>
+                <p class="hero-sub">
+                    Expert tutoring for OC and Selective by high school students across Sydney.
+                </p>
+                <div class="hero-btns">
+                    <a href="#" class="btn-primary">Book a trial lesson <span>→</span></a>
+                    <a href="#" class="btn-ghost-white">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M8 7l4 3-4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        Explore programs
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
